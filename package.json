@@ -1,6 +1,6 @@
 {
-	"name": "generic-blink",
-	"version": "1.2.0",
+	"name": "generic-timerblink",
+	"version": "0.9.0",
 	"main": "index.js",
 	"scripts": {
 		"test": "echo \"Error: no test specified\" && exit 1"

@@ -1,16 +1,16 @@
 {
-	"id": "generic-blink",
-	"name": "generic-blink",
-	"shortname": "generic-blink",
-	"description": "Opens a local file and pulls the contents into a variable for processing.",
+	"id": "generic-timerblink",
+	"name": "generic-timerblink",
+	"shortname": "generic-timerblink",
+	"description": "Genric Timer Blinker",
 	"version": "0.0.0",
 	"license": "MIT",
-	"repository": "git+https://github.com/bitfocus/companion-module-generic-blink.git",
-	"bugs": "https://github.com/bitfocus/companion-module-generic-blink/issues",
+	"repository": "git+https://github.com/bitfocus/companion-module-generic-timerblink.git",
+	"bugs": "https://github.com/bitfocus/companion-module-generic-timerblink/issues",
 	"maintainers": [
 		{
-			"name": "Joseph Adams",
-			"email": "josephdadams@gmail.com"
+			"name": "Greg Fisk",
+			"email": "gregfisk25@gmail.com"
 		}
 	],
 	"legacyIds": [],
@@ -22,9 +22,9 @@
 	},
 	"manufacturer": "Generic",
 	"products": [
-		"Button Blinker"
+		"Timer Button Blinker"
 	],
 	"keywords": [
-		"Blink"
+		"Timer Blinker"
 	]
 }
