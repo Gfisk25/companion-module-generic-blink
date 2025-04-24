@@ -1161,9 +1161,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"generic-blink@workspace:.":
+"generic-timerblink@workspace:.":
   version: 0.0.0-use.local
-  resolution: "generic-blink@workspace:."
+  resolution: "generic-timerblink@workspace:."
   dependencies:
     "@companion-module/base": "npm:~1.11.3"
     "@companion-module/tools": "npm:^2.3.0"
