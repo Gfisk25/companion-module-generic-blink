@@ -60,6 +60,26 @@ module.exports = {
 				}
 			}
 		}
+		actions.setDuration = {
+			name: 'Set Blink Duration',
+			options: [
+				{
+					type: 'textinput',
+					label: 'Duration (s)',
+					id: 'duration',
+					default: 60,
+					tooltip: 'The duration in seconds the button will blink.',
+					required: true,
+					useVariables: true,
+					min: 1,
+					max: 10000
+				}
+			],
+			callback: async function (action) {
+				let duration = parseInt(await(self.parseVariablesInString(action.options.duration)));
+				self.setDuration(duration);
+			}
+		}
 
 		self.setActionDefinitions(actions);
 	}

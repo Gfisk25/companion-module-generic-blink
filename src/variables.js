@@ -12,6 +12,7 @@ module.exports = {
 			variables.push({ variableId: 'rate', name: 'Blink Rate' })
 		}
 
+		variables.push({ variableId: 'duration', name: 'Blink Duration' })
 		self.setVariableDefinitions(variables);
 	},
 
@@ -28,6 +29,8 @@ module.exports = {
 			else {
 				variableValues['rate'] = self.config.rate;
 			}
+			
+			variableValues['duration'] = self.config.duration;
 			
 			self.setVariableValues(variableValues);
 		}

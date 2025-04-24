@@ -49,4 +49,12 @@ module.exports = {
 		self.saveConfig(self.config);
 		self.startInterval();
 	},
+	
+	setDuration: function(duration) {
+		let self = this;
+		self.config.duration = duration;
+		self.checkVariables();
+		self.saveConfig(self.config);
+		self.startInterval();
+	},
 }

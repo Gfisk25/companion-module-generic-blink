@@ -9,7 +9,7 @@ const variables = require('./src/variables');
 
 const api = require('./src/api');
 
-class GenericBlinkInstance extends InstanceBase {
+class GenericTimerBlinkInstance extends InstanceBase {
 	constructor(internal) {
 		super(internal)
 
@@ -52,4 +52,4 @@ class GenericBlinkInstance extends InstanceBase {
 	}
 }
 
-runEntrypoint(GenericBlinkInstance, UpgradeScripts)
+runEntrypoint(GenericTimerBlinkInstance, UpgradeScripts)
