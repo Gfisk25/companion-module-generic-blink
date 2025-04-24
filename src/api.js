@@ -39,7 +39,8 @@ module.exports = {
 		self.config.offTime = offTime;
 		self.checkVariables();
 		self.saveConfig(self.config);
-		self.startInterval();
+		// self.startInterval(); // REMOVED - Schedule checker in index.js handles this now
+		this.log('debug', `On/Off times updated to On: ${onTime}, Off: ${offTime}. Schedule checker will control interval.`);
 	},
 
 	setRate: function(rate) {
@@ -47,6 +48,7 @@ module.exports = {
 		self.config.rate = rate;
 		self.checkVariables();
 		self.saveConfig(self.config);
-		self.startInterval();
+		// self.startInterval(); // REMOVED - Schedule checker in index.js handles this now
+		this.log('debug', `Rate updated to: ${rate}. Schedule checker will control interval.`);
 	},
 }

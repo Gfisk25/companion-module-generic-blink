@@ -1,5 +1,5 @@
-# Generic Blink
-This module will allow you to blink a button based on the state of a variable's value.
+# Generic Timer Blink
+This module will allow you to blink a button based start and end timers.
 
 ## Configuration
 * Enter the blink rate of the button.
